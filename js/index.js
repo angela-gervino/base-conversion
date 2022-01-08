@@ -78,6 +78,7 @@ for(let i = 0; i < 16; i++){
 
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('calculate').addEventListener('click',begin);
+    document.getElementById('calculate').addEventListener('touchstart',begin);
 });
 
 
