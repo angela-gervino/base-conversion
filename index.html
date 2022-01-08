@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <title>Base Conversion</title>
+</head>
+<body>
+    <h1>Base Conversion Calculator</h1>
+    <p> The calculator works for bases 2-16. Bases should contain only the digits 0-9 
+        and no other symbols. The input number can contain
+        the digits 0-9 and any of the following symbols: abcdefABCDEF. 
+    </p>
+    <div class="container">
+        <p>Input Base</p>
+        <input type="text" id="inp-base">
+        <p>Number</p>
+        <input type="text" id="num">
+        <p>Output Base</p>
+        <input type="text" id="out-base">
+        <p>Result</p>
+        <div id="result"></div>
+        <div class="calculate">
+            <button type="button" id="calculate">Convert</button>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

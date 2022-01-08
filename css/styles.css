@@ -1,0 +1,59 @@
+:root {
+  --light: #bdc3c7;
+  --dark: #2a2c2b;
+  --accent: #593d62;
+  --lightAccent: #9b7ca5;
+}
+
+body {
+  background-color: var(--light);
+  font-family: futura, "Trebuchet MS", Arial, sans-serif;
+  color: var(--dark);
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+#num,
+#inp-base,
+#out-base,
+#calculate,
+#result {
+  background: var(--lightAccent);
+  border: none;
+  outline: none;
+  width: 25rem;
+  height: 2.5rem;
+  padding: 0.25rem;
+  font: inherit;
+  box-shadow: 5px 5px 5px var(--accent);
+}
+
+.container {
+  width: max-content;
+  height: max-content;
+  margin: 0 auto;
+}
+
+#result {
+  padding-top: 0.9rem;
+  height: 2rem;
+  padding-left: 0.25rem;
+}
+
+#calculate {
+  width: 7.5rem;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
+#calculate:hover {
+  cursor: pointer;
+}
+
+.calculate {
+  position: relative;
+}
