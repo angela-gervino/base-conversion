@@ -29,6 +29,7 @@ p {
   padding: 0.25rem;
   font: inherit;
   box-shadow: 5px 5px 5px var(--accent);
+  color: inherit;
 }
 
 .container {
@@ -46,8 +47,8 @@ p {
 #calculate {
   width: 7.5rem;
   margin-top: 2rem;
-  margin-left: 9rem;
-  margin-right: 9rem;
+  margin-left: 7.75rem;
+  margin-right: 7.75rem;
 }
 
 #calculate:hover {
